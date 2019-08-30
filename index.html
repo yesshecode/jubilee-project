@@ -2,14 +2,20 @@
 <html lang="en">
     <head>
         <title>Jubilee Austen | Portfolio</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+
     </head>
     <body>
+        <div class="container">
     	<header>
-    		<div class="full-width">
-    			<div class="half-width">
+    		<div class="full-width" >
+    			<div class="half-width" id="project-name">
     				<h1>Jubilee Austen</h1>
     			</div>
-    			<div class="half-width">
+    			<div class="half-width" id="navbar">
     				<nav>
     					<ul>
     						<li><a href="#about">About</a></li>
@@ -24,13 +30,13 @@
     	<main>
     		<section id="about">
     			<div class="full-width">
-    				<h2>A little bit about me</h2>
+    				<h2 id="little-about-me">A little bit about me</h2>
     			</div>
-    			<div class="half-width">
-    				<p>I've made my home base in Providence, Rhode Island, with my small growing family. My journey into tech started with a degree in journalism. As I started sharing my writing online, I was fascinated with how easily I could get my voice out there. I was hooked and wanted to learn how to build my own site to fit my own specific needs.</p>
+    			<div class="half-width" id="left-about-description">
+    				<p class="about-description">I've made my home base in Providence, Rhode Island, with my small growing family. My journey into tech started with a degree in journalism. As I started sharing my writing online, I was fascinated with how easily I could get my voice out there. I was hooked and wanted to learn how to build my own site to fit my own specific needs.</p>
     			</div>
-    			<div class="half-width">
-    				<p>That curiosity then opened a door that could never be shut. When I learned how to build my first website, I realized I found something that gave me the freedom & versatility I was looking for in my work. Now I've made a full switch to front-end development, where I can use my organization skills and eye for detail to write clean, elegant code.</p>
+    			<div class="half-width" id="right-about-description">
+    				<p class="about-description">That curiosity then opened a door that could never be shut. When I learned how to build my first website, I realized I found something that gave me the freedom & versatility I was looking for in my work. Now I've made a full switch to front-end development, where I can use my organization skills and eye for detail to write clean, elegant code.</p>
     			</div>
     		</section>	
     		<section id="work">
@@ -54,21 +60,26 @@
     		</section>
     		<footer id="contact">
     			<div class="full-width">
-    				<div class="half-width">
+    				<div class="half-width" id="contact-image">
     					<img src="img/contact-image.png" alt="contact image"/>
     				</div>
     				<div class="half-width" id="contact-info">
     					<h2>Like what you see?</h2>
     					<h3>Let's meet for a cup of coffee.</h3>
-    					<!-- finish here the add contact:
-    						1. add the envelop icon and link to email
-    						2. add social media icons (no link required) -->
+                        <a href="mailto:hi@jubileeausten.com" target="_blank"><img src="img/envelope.png" alt="envelope"/></a>
+                        <a href="mailto:hi@jubileeausten.com" target="_blank">hi[@]jubileeausten.com</a><br>
+                        <h4>Or, find me on the interwebs</h4>
+                        <ul>
+                            <li><a href="https://twitter.com/yes_shecode" target="_blank"><img src="img/twitter.png"/></a></li>
+                            <li><img src="img/tumblr.png"/></li>
+                            <li><img src="img/instagram.png"/></li>
+                            <li><img src="img/linkedin.png"/></li>
+                        </ul>		
     				</div>
     			</div>
-
     		</footer>
     	</main>
 
-    
+    </div>    
     </body>
 </html>

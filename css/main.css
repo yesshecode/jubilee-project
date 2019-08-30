@@ -1,0 +1,65 @@
+
+.container {
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+/* ---------> Header <------- */
+#project-name {
+	float: left;
+
+}
+
+#navbar {
+	float: left;
+}
+
+
+/* ------> About Section <---- */
+.full-width {
+	border: 2px solid blue;
+	width: 100%;
+  	
+}
+
+.half-width {
+  	border: 2px solid red;
+  	width: 486px;
+
+
+
+}
+
+.third-width {
+  	border: 2px solid orange;
+  	width: 322px;
+	float: left;
+}	
+
+
+#left-about-description {
+	float: left;
+	
+}
+
+#right-about-description {
+	overflow: auto;
+	margin: 0px 10px 0px 10px;
+}
+
+.about-description {
+	padding: 20px;
+}
+
+/* -------> Work Section <--------- */
+
+#contact-image {
+	clear: both;
+	float: left;
+}
+
+#contact-info {
+	float: left;
+}
+
+
