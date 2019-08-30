@@ -1,65 +1,30 @@
 
+/* ------> Positioning <----------- */
 .container {
-	margin-left: 150px;
-	margin-right: 150px;
-}
-
-/* ---------> Header <------- */
-#project-name {
-	float: left;
+	width: 70%;
+	margin: 0% 15% 0% 15%;
 
 }
 
-#navbar {
-	float: left;
-}
 
-
-/* ------> About Section <---- */
-.full-width {
-	border: 2px solid blue;
+.full-width{
 	width: 100%;
-  	
+	clear: both;
+	overflow: auto;
+
 }
+
 
 .half-width {
-  	border: 2px solid red;
-  	width: 486px;
-
-
-
-}
-
-.third-width {
-  	border: 2px solid orange;
-  	width: 322px;
-	float: left;
-}	
-
-
-#left-about-description {
+	width: 50%;
 	float: left;
 	
 }
 
-#right-about-description {
-	overflow: auto;
-	margin: 0px 10px 0px 10px;
-}
 
-.about-description {
-	padding: 20px;
-}
-
-/* -------> Work Section <--------- */
-
-#contact-image {
-	clear: both;
+.third-width {
+	width: 33.3%;
 	float: left;
-}
 
-#contact-info {
-	float: left;
-}
-
-
+/* -----> Styling Starts Here <------- */
+	
