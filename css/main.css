@@ -1,8 +1,208 @@
 
-/* ------> Positioning <----------- */
+
+li {
+	font-family: 'Source Sans Pro', sans-serif;
+	float: left;
+	list-style-type: none;
+
+}
+
+li, a {
+	text-decoration: none;
+	color: #828282;
+	font-size: 18px;
+	text-transform: uppercase;
+
+}
+
+#nav-about {
+	margin: 0px 0px 0px 80px;
+}
+
+#nav-work {
+	margin: 0px 80px 0px 80px;
+}
+
+h1 {
+	font-family: 'Lora', serif;
+	color: #bbc085;
+	font-size: 30px;
+	margin-left: 10%;
+}
+
+#banner {
+	background-image: url("../img/hero.png");
+	background-color: lightgrey;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+}
+
+#first-title {
+	font-family: 'Lora', serif;
+	font-size: 72px;
+	line-height: 80px;
+	color: #9b9b9b;
+	clear: both;
+	margin: 20% 10% 0% 10%;
+}
+
+span {
+	color: #2b2b2b;
+}
+
+/*------->A little bit about me section <----------*/
+
+#second-title {
+	font-family: 'Lora', serif;
+	color: #2b2b2b;
+	font-size: 36px;
+	margin: 5% 5% 3% 5%;
+}
+
+
+.about-paragraph {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #7f7f7f;
+	font-size: 21px;
+	line-height: 40px;
+	text-align: justify;
+}
+
+
+/*-------> Work section <-----------*/
+
+#section-work {
+	background-color: #f9ceb7;
+	padding: 5% 5% 5% 5%;
+}
+
+#html-icon {
+	margin-left: 90px;
+	margin-top: 7%;
+}
+
+#css-icon {
+	margin-left: 80px;
+	margin-top: 7%;
+}
+
+
+#pencil-icon {
+	margin-left: 90px;
+	margin-top: 7%;
+}
+
+
+h3 {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #2b2b2b;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;
+	font-weight: bolder;
+}
+
+.work-paragraph {
+	font-family: 'Lora' serif;
+	font-size: 18px;
+	line-height: 30px;
+	color: #2b2b2b;
+	text-align: center;
+}
+/*------> Footer <----------*/
+
+#footer {
+	height: 3o0px;
+	background-color: #ebebeb;
+
+}
+
+#contact-img {
+	border: 12px solid white;
+	margin: 50px;
+	width: 400px;
+	height: 268px;
+
+
+
+}
+
+#contact-header {
+	font-family: 'Lora', serif;
+	color: #2b2b2b;
+	font-weight: bolder;
+	font-size: 36px;
+	line-height: 44px;
+	margin-top: 50px;
+	margin-bottom: 5px;
+}
+
+#contact-message {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #2b2b2b;
+	font-size: 32px;
+	line-height: 44px;
+	font-weight: normal;
+	text-align: left;
+	margin: 0px 0px 5px 0px;
+}
+
+#envelope-icon {
+	width: 25px;
+	height: 19px;
+}
+
+#email-address {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #c49075;
+	font-size: 28px;
+	text-transform: lowercase;
+	font-weight: bold;
+}
+
+h4 {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #2b2b2b;
+	font-size: 29px;
+	line-height: 44px;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+
+#twitter-icon {
+	margin: 0px 80px 0px -35px;
+}
+
+
+.icon {
+	margin: 0px 80px 0px 0px;
+	width: 20px;
+	height: 19px;
+}
+
+
+/*
+#tumblr-icon {
+	margin: 0px 100px 0px 0px;
+
+}
+
+#instagram-icon {
+	margin: 0px 50px 0px 0px;
+}
+
+#linkedin-icon {
+	margin: 0px 50px 0px 0px;
+}
+
+*/
+
+/* ------> Positioning <------ */
 .container {
-	width: 70%;
-	margin: 0% 15% 0% 15%;
+	width: 100%;
 
 }
 
@@ -16,15 +216,20 @@
 
 
 .half-width {
-	width: 50%;
+	width: 40%;
 	float: left;
+	margin: 0% 5% 5% 5%;
 	
 }
 
 
 .third-width {
-	width: 33.3%;
+	width: 20%;
 	float: left;
+	margin: 0% 3% 3% 5%;
 
-/* -----> Styling Starts Here <------- */
-	
+
+
+
+
+		

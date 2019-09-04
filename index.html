@@ -4,75 +4,76 @@
         <title>Jubilee Austen | Portfolio</title>
         <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css?family=Lora|Source+Sans+Pro&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
 
     </head>
     <body>
         <div class="container">
             <header>
-                <div class="full-width" >
+                <div class="full-width" id="banner" >
                     <div class="half-width">
                         <h1>Jubilee Austen</h1>
                     </div>
                     <div class="half-width">
                         <nav>
                             <ul>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#work">Work</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="#about" id="nav-about">About</a></li>
+                                <li><a href="#work" id="nav-work">Work</a></li>
+                                <li><a href="#contact" id="nav-contact">Contact</a></li>
                             </ul>
                         </nav>
                     </div>
-                    <h2><span>Hi,</span> I'm a developer that loves clean and elegant code</h2>
+                    <h2 id="first-title"><span>Hi,</span> I'm a developer that loves clean and elegant code.</h2>
                 </div>
             </header>
             <main>
                 <section id="about">
                     <div class="full-width">
-                        <h2>A little bit about me</h2>
+                        <h2 id="second-title">A little bit about me.</h2>
                     </div>
                     <div class="half-width">
-                        <p>I've made my home base in Providence, Rhode Island, with my small growing family. My journey into tech started with a degree in journalism. As I started sharing my writing online, I was fascinated with how easily I could get my voice out there. I was hooked and wanted to learn how to build my own site to fit my own specific needs.</p>
+                        <p class="about-paragraph">I've made my home base in Providence, Rhode Island, with my small growing family. My journey into tech started with a degree in journalism. As I started sharing my writing online, I was fascinated with how easily I could get my voice out there. I was hooked and wanted to learn how to build my own site to fit my own specific needs.</p>
                     </div>
                     <div class="half-width">
-                        <p>That curiosity then opened a door that could never be shut. When I learned how to build my first website, I realized I found something that gave me the freedom & versatility I was looking for in my work. Now I've made a full switch to front-end development, where I can use my organization skills and eye for detail to write clean, elegant code.</p>
+                        <p class="about-paragraph">That curiosity then opened a door that could never be shut. When I learned how to build my first website, I realized I found something that gave me the freedom & versatility I was looking for in my work. Now I've made a full switch to front-end development, where I can use my organization skills and eye for detail to write clean, elegant code.</p>
                     </div>
                 </section>  
                 <section id="work">
-                    <div class="full-width">
+                    <div id="section-work" class="full-width">
                         <div class="third-width">
-                            <img src="img/html-icon.png" alt="html icon"/>
-                            <h3>Hand-Coded HTML</h3>
-                            <p>My focus is writing clean, well-formatted, semantic HTML5 by hand to make sure that the content is easy to read, easy to collaborate, trouble-shoot and accessible.</p>
+                            <img src="img/html-icon.png" alt="html icon" id="html-icon" />
+                            <h3>Hand-Coded <br> HTML</h3>
+                            <p class="work-paragraph">My focus is writing clean, well-formatted, semantic HTML5 by hand to make sure that the content is easy to read, easy to collaborate, trouble-shoot and accessible.</p>
                         </div>
                         <div class="third-width">
-                            <img src="img/css-icon.png" alt="css icon"/>
-                            <h3>Well-Organized CSS</h3>
-                            <p>I pride myself on writing CSS that is easy to read and build on. I focus on keeping my CSS lean and fast to load, and I make it a habit to stay up to date on current best practices.</p>
+                            <img src="img/css-icon.png" alt="css icon" id="css-icon" />
+                            <h3>Well-Organized <br>CSS</h3>
+                            <p class="work-paragraph">I pride myself on writing CSS that is easy to read and build on. I focus on keeping my CSS lean and fast to load, and I make it a habit to stay up to date on current best practices.</p>
                         </div>
                         <div class="third-width">
-                            <img src="img/pencil-icon.png" alt="pencil-icon"/>
-                            <h3>Ease Converting Designs into Code</h3>
-                            <p>You can trust me to take a designer's PSD and quickly & accurately convert it into a webpage that is pixel-perfect match.</p>
+                            <img src="img/pencil-icon.png" alt="pencil-icon"/ id="pencil-icon">
+                            <h3>Ease Converting <br> Designs into Code</h3>
+                            <p class="work-paragraph">You can trust me to take a designer's PSD and quickly & accurately convert it into a webpage that is pixel-perfect match.</p>
                         </div>
                     </div>
                 </section>
                 <footer id="contact">
-                    <div class="full-width">
+                    <div class="full-width" id="footer">
                         <div class="half-width">
-                            <img src="img/contact-image.png" alt="contact image"/>
+                            <img src="img/contact-image.png" alt="contact image"/ id="contact-img">
                         </div>
                         <div class="half-width">
-                            <h2>Like what you see?</h2>
-                            <h3>Let's meet for a cup of coffee.</h3>
-                            <a href="mailto:hi@jubileeausten.com" target="_blank"><img src="img/envelope.png" alt="envelope"/></a>
-                            <a href="mailto:hi@jubileeausten.com" target="_blank">hi[@]jubileeausten.com</a><br>
+                            <h2 id="contact-header">Like what you see?</h2>
+                            <h3 id="contact-message">Let's meet for a cup of coffee.</h3>
+                            <a href="mailto:hi@jubileeausten.com" target="_blank"><img src="img/envelope.png" alt="envelope" id="envelope-icon" /></a>
+                            <a href="mailto:hi@jubileeausten.com" target="_blank" id="email-address">hi[@]jubileeausten.com</a><br>
                             <h4>Or, find me on the interwebs</h4>
                             <ul>
-                                <li><a href="https://twitter.com/yes_shecode" target="_blank"><img src="img/twitter.png"/></a></li>
-                                <li><img src="img/tumblr.png"/></li>
-                                <li><img src="img/instagram.png"/></li>
-                                <li><img src="img/linkedin.png"/></li>
+                                <li><a href="https://twitter.com/yes_shecode" target="_blank"><img src="img/twitter.png" class="icon" id="twitter-icon" /></a></li>
+                                <li><img src="img/tumblr.png" class="icon" id="tumblr-icon" /></li>
+                                <li><img src="img/instagram.png" class="icon" id="instagram-icon" /></li>
+                                <li><img src="img/linkedin.png" class="icon" id="linkedin-icon" /></li>
                             </ul>       
                         </div>
                     </div>
